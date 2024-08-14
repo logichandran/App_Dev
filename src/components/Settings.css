@@ -1,0 +1,110 @@
+/* General Styles */
+.settings-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+.settings-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.settings-form .form-group {
+    margin-bottom: 15px;
+}
+
+.settings-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.settings-form input[type="text"],
+.settings-form input[type="email"],
+.settings-form input[type="password"],
+.settings-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.settings-form input:disabled,
+.settings-form textarea:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.settings-form input:focus,
+.settings-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.settings-form .btn-submit {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.settings-form .btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.settings-form .btn-edit {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.settings-form .btn-edit:hover {
+    background-color: #5a6268;
+}
+
+.settings-form .message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #28a745; /* Green for success messages */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .settings-form {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .settings-form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .settings-form .btn-submit,
+    .settings-form .btn-edit {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

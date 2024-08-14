@@ -1,0 +1,19 @@
+{
+  "vehicles": [
+    {
+      "id": null,
+      "registration_number": "4567890",
+      "driver_name": "sdfbn",
+      "capacity": "1",
+      "availability_status": true
+    },
+    {
+      "id": null,
+      "registration_number": "4567",
+      "driver_name": "fghj",
+      "capacity": "4",
+      "availability_status": true
+    }
+  ]
+ 
+}
